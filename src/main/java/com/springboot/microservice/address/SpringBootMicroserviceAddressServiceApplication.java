@@ -1,0 +1,14 @@
+package com.springboot.microservice.address;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+
+@SpringBootApplication
+@EnableDiscoveryClient
+public class SpringBootMicroserviceAddressServiceApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringBootMicroserviceAddressServiceApplication.class, args);
+	}
+}
